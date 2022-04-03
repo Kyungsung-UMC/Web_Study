@@ -2,7 +2,7 @@
 
 # 푸시방법
 1. git add . 
-2. git commit -m 'aasdf'
+2. git commit -m '메세지'
 3. git push
 
 # 풀 방법
