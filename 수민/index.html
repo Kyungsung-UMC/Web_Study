@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>계산기</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href=./style.css>
+    <script src="cal.js"></script>
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" value="0" id="output" class="output" >
+        <input type="button" value="AC" class="deepgray" onclick="AC()">
+        <input type="button" value="+/-" class="deepgray"onclick="plusminus()" >
+        <input type="button" value="%"  class="deepgray" onclick="symbol('%')">
+        <input type="button" value="÷" class="yellow"  onclick="symbol('/')">
+        <input type="button" value="7" onclick="num(7)">
+        <input type="button" value="8" onclick="num(8)">
+        <input type="button" value="9" onclick="num(9)">
+        <input type="button" value="X" class="yellow" onclick="symbol('*')">
+        <input type="button" value="4" onclick="num(4)">
+        <input type="button" value="5" onclick="num(5)">
+        <input type="button" value="6" onclick="num(6)">
+        <input type="button" value="-" class="yellow"  onclick="symbol('-')">
+        <input type="button" value="1" onclick="num(1)">
+        <input type="button" value="2" onclick="num(2)">
+        <input type="button" value="3" onclick="num(3)">
+        <input type="button" value="+" class="yellow" onclick="symbol('+')">
+        <input type="button" value="0" class="long" onclick="num(0)">
+        <input type="button" value="." onclick="com()">
+        <input type="button" value="=" class="yellow" onclick = "result()">
+    </div>
+</body>
+</html>
