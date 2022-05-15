@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>계산기</title>
+    <link rel="stylesheet" href="./계산기.css">
+    <script src='계산기.js'></script>
+</head>
+<body>
+        <input type="text" value="0" class= "r" id="r"> <br>
+        <input type="button" class=darkgray  value="AC" onclick="AC()">
+        <input type="button" class=darkgray value="+/-">
+          <input type="button" class=darkgray value="%" onclick="symbol('%')">
+          <input type="button" class=orange value="÷" onclick="symbol('÷')"> <br>
+          <input type="button" class=lightgray value="7" onclick="number(7)">
+          <input type="button" class=lightgray value="8"onclick="number(8)">
+          <input type="button" class=lightgray value="9"onclick="number(9)">
+          <input type="button" class=orange value="x" onclick="symbol('*')"> <br>
+          <input type="button" class=lightgray value="4"onclick="number(4)">
+          <input type="button" class=lightgray value="5"onclick="number(5)">
+          <input type="button" class=lightgray value="6"onclick="number(6)">
+          <input type="button" class=orange value="-" onclick="symbol('-')"> <br>
+          <input type="button" class=lightgray value="1"onclick="number(1)">
+          <input type="button" class=lightgray value="2"onclick="number(2)">
+          <input type="button" class=lightgray value="3"onclick="number(3)">
+          <input type="button" class=orange value="+"onclick="symbol('+')"> <br>
+          <input type="button" class=gray value="0"onclick="number(0)">
+          <input type="button" class=lightgray value="."onclick="po()">
+          <input type="button" class=orange value="=" onclick="res()">       
+</body>
+</html>

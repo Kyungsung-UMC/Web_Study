@@ -1,0 +1,49 @@
+
+* {
+  color:white;
+}
+.clear__and__enter > button:active {
+  background-color: #444444; 
+}
+.darkgray {
+    width: 100px;
+    height: 70px;
+    background-color: darkgray;
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .orange {
+    width: 100px;
+    height: 70px;
+    background-color: orange;
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .lightgray {
+    width: 100px;
+    height: 70px;
+    background-color: lightgray;
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .gray {
+    width: 205.2px;
+    height: 70px;
+    background-color: lightgray;
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .r {
+    width: 409px;
+    height: 100px;
+    background-color: darkgray;
+    font-size: 50px;
+    text-align: end;
+  }
+  input::placeholder {
+    color: white;
+  }
